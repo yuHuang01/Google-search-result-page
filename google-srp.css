@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* The search bar */
+#search-bar-part {
+    height: 90px;
+    display: grid;
+    grid-template-columns: 150px 700px 1fr 200px;
+    grid-template-rows: 60% 40%;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+/*Top of the search bar*/
+#logo {
+    height: 30px;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+#search-bar {
+    width: 650px;
+    height: 30px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+    border-color: gray;
+    border-width: 1px;
+}
+#google-apps-logo {
+    height: 40px;
+    width: auto;
+    grid-column: 4;
+    grid-row: 1;
+    align-self: center;
+    justify-self: left;
+}
+#sign-in-button {
+    width: 100px;
+    height: 40px;
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(23, 71, 228);
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+}
+#search-bar:hover {
+    box-shadow: 1px 1px lightgray;
+}
+/*Bottom of the search bar */
+
+#six-part-nav {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: flex-end;
+    justify-self: left;
+    padding-left: 20px;
+}
+#two-part-nav {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: flex-end;
+    justify-self: right;
+    padding-right: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* Search result part */
+#search-result-part {
+
+}
+#result-num{
+    padding-left: 170px;
+    padding-top: 105px;
+    color: gray;
+}
+#results {
+    width: 650px;
+    padding-left: 170px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#results h1 {
+    color: rgb(23, 71, 228);
+}
+#link {
+    font-weight: bold;
+}
